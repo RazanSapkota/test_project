@@ -30,6 +30,22 @@ Service layer can be added later as the project grows.
 go run ./cmd/api
 ```
 
+## Build
+
+```bash
+go build -o bin/api ./cmd/api
+```
+
+## Start
+
+```bash
+# Linux/macOS
+./bin/api
+
+# Windows
+bin\api.exe
+```
+
 Server starts on `http://localhost:8080`
 
 ## Test Route

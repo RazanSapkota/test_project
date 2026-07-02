@@ -4,6 +4,6 @@ import "github.com/gin-gonic/gin"
 
 func TestRoute(c *gin.Context) {
 	c.JSON(200, gin.H{
-		"message": "Gin API is working",
+		"data": gin.H{"biryani": "delicious"},
 	})
 }
